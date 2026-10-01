@@ -1,0 +1,27 @@
+{
+  "created_at_utc": "2026-10-01T06:59:45.803545+00:00",
+  "derivation": "read-only aggregate of frozen Exp 1 gold ranks",
+  "source_master": "runs\\2026-10-01_experiment1_main_retrieval\\exp1_master_candidate_results.csv.gz",
+  "source_master_sha256": "a5810509a1bf407e80b074c6faef01d4063b91ee6d96956d4a408f53e7fa1268",
+  "methods": {
+    "Raw": "raw_rank",
+    "MultiPIC": "multipic_rank",
+    "Calibration": "calibration_rank",
+    "Calibration + Support": "support_rank"
+  },
+  "K": [
+    1,
+    5,
+    10,
+    20,
+    30,
+    40,
+    50
+  ],
+  "outputs": {
+    "experiment2_recall_budget.csv": "8e2850f0e3b90b6e6e2224e6a80420d8867ad6cd6a8d1a53e53d55fdb83e0289",
+    "experiment2_recall_budget.md": "5bd97a3737f5fbd501fd1dc1703c08dc9d1898d2c959740d4358dfbfd20d3afb",
+    "experiment2_recall_budget_curve.png": "5f7c7ba45aa7cab1ee1ce2aa64fb0081c5dc6e6c071aef9a63ddb08e3551ca7d",
+    "experiment2_recall_budget_curve.svg": "8b43c8af5422fede57892ba88e298864ea9cd03fe6ce91014ab10fb05b3e9be8"
+  }
+}

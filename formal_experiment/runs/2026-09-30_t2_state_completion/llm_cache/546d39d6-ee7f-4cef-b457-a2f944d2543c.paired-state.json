@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "fingerprint": {
+    "prompt_version": "paired-state-normalizer-v2",
+    "prompt_sha256": "a3e23477a6a6b7c1a753b7b20fabff741930cf1e436426d6af80945715f88230",
+    "input_sha256": "a65480f954bd6900e7b0f2f4c574f2d3be64d63e4a28339f014646d5955ee169",
+    "model": "deepseek-flash",
+    "thinking": true,
+    "reasoning_effort": "low"
+  },
+  "result": {
+    "decision": "VALID",
+    "state_old": "The user is exposed to pretty intense sunlight on a daily basis.",
+    "state_new": "The user has started timing their dog's walks by the tide charts.",
+    "old_evidence_text": "I'm exposed to pretty intense sunlight on a daily basis",
+    "new_evidence_text": "I’ve started timing my dog’s walks by the tide charts",
+    "invalid_reason": null,
+    "confidence": 0.85
+  }
+}

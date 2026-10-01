@@ -1,0 +1,14 @@
+{
+  "run_id": "2026-09-30_t2_state_completion",
+  "source_dataset": "formal_experiment/data/raw/STALE/T1_T2_400_FULL.json.before_noise_removal_20260919",
+  "source_dataset_sha256": "5F3EC375179E20E2E94469E018189188F34E2E7E5F21CBECBD99FCFA648C1876",
+  "source_dataset_t2_count": 200,
+  "prior_state_jsonl": "formal_experiment/data/raw/paired_states_v2/paired_states.jsonl",
+  "selected_count": 20,
+  "missing_count": 19,
+  "reprocess_invalid_count": 1,
+  "prompt_version": "paired-state-normalizer-v2",
+  "model": "deepseek-flash",
+  "thinking": "enabled",
+  "reasoning_effort": "low"
+}

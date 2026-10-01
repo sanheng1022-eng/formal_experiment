@@ -1,0 +1,19 @@
+# Local BGE-M3 model manifest
+
+- Model identity: `BAAI/bge-m3`
+- Source supplied locally: `D:\Download`
+- Copied into this formal-experiment directory: 2026-09-30
+- Dense output: 1024 dimensions, normalized CLS embedding
+- Maximum input: 8192 tokens
+- Instruction policy: raw text only; no Qwen-style `Instruct:`/`Query:` prefix
+
+## SHA-256
+
+```text
+19BFBAE397C2B7524158C919D0E9B19393C5639D098F0A66932C91ED8F5F9ABB  colbert_linear.pt
+26159E7AD065073448460117EB24B7A4572F6F4E78EADFF65DC0A11C052449FA  config.json
+B5E0CE3470ABF5EF3831AA1BD5553B486803E83251590AB7FF35A117CF6AAD38  pytorch_model.bin
+CFC8146ABE2A0488E9E2A0C56DE7952F7C11AB059ECA145A0A727AFCE0DB2865  sentencepiece.bpe.model
+45C93804D2142B8F6D7EC6914AE23A1EEE9C6A1D27D83D908A20D2AFB3595AD9  sparse_linear.pt
+21106B6D7DAB2952C1D496FB21D5DC9DB75C28ED361A05F5020BBBA27810DD08  tokenizer.json
+```

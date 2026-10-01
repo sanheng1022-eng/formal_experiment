@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "fingerprint": {
+    "prompt_version": "paired-state-normalizer-v2",
+    "prompt_sha256": "a3e23477a6a6b7c1a753b7b20fabff741930cf1e436426d6af80945715f88230",
+    "input_sha256": "d60e51878d10dfcb8858ffe196ee420b4d066b6143208e66f77e53dcd663108b",
+    "model": "deepseek-flash",
+    "thinking": true,
+    "reasoning_effort": "low"
+  },
+  "result": {
+    "decision": "VALID",
+    "state_old": "The user needs to finish insulating the window seals this weekend.",
+    "state_new": "The user spent Sunday morning sweeping red grit off the stucco and making sure the drip emitters for the new agave and ocotillo plants were flowing properly.",
+    "old_evidence_text": "I really need to finish insulating the window seals this weekend",
+    "new_evidence_text": "I spent Sunday morning sweeping that endless red grit off the stucco and making sure the drip emitters for the new agave and ocotillo plants were flowing properly.",
+    "invalid_reason": null,
+    "confidence": 0.95
+  }
+}

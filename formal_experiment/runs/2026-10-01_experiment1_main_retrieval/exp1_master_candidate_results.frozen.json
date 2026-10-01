@@ -1,0 +1,33 @@
+{
+  "created_at_utc": "2026-10-01T06:54:06.722828+00:00",
+  "master_file": "exp1_master_candidate_results.csv.gz",
+  "master_sha256": "a5810509a1bf407e80b074c6faef01d4063b91ee6d96956d4a408f53e7fa1268",
+  "query_summary_file": "exp1_query_level_summary.csv.gz",
+  "query_summary_sha256": "befe78001a9d1157b4a36ec511f936750d43f42a49240c05ea6661960d935602",
+  "source_hashes": {
+    "dataset": "3ff986272036979ca2838b493da21221de0412f5310ccc3447e1b55f1a5ffc04",
+    "folds": "e06a31ead028d52319c2b731410eb2edc64979d453ae30d9d4b5392c98f00558",
+    "cache": "37d2c4edfc1081ddd36c8a903609d181b150cb11f5acc318a0860da06957b3de",
+    "cache_index": "1f13460ff4f88a3fe47b19aeb3443c885fc049aa56f09c7ff0cfdc10f3912b7c",
+    "cache_metadata": "750878d1ce9489925a7662896a3331033f604fa2d6a72f40051ca5435d7f743b"
+  },
+  "configuration": {
+    "inner_folds": 4,
+    "inner_seed": 20261001,
+    "topks": [
+      10,
+      20,
+      40
+    ],
+    "betas": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "selection": "max R@20, max MRR, min beta, min TopK",
+    "alpha": 0.5,
+    "logmeanexp_tau": 0.1,
+    "epsilon": 1e-08
+  }
+}

@@ -1,0 +1,9 @@
+comparison,baseline,new,metric,both_hit,both_miss,baseline_hit_to_new_miss,baseline_miss_to_new_hit,discordant_total,exact_mcnemar_p_value,n_queries
+MultiPIC vs Calibration,MultiPIC,Calibration,R@1,13,170,5,12,17,0.143463134765625,200
+MultiPIC vs Calibration,MultiPIC,Calibration,R@5,50,123,7,20,27,0.0191572904586792,200
+MultiPIC vs Calibration,MultiPIC,Calibration,R@10,74,92,7,27,34,0.0008213953115046024,200
+MultiPIC vs Calibration,MultiPIC,Calibration,R@20,103,62,12,23,35,0.0895310789346695,200
+MultiPIC vs Calibration + Support,MultiPIC,Calibration + Support,R@1,14,166,4,16,20,0.01181793212890625,200
+MultiPIC vs Calibration + Support,MultiPIC,Calibration + Support,R@5,49,124,8,19,27,0.052238985896110535,200
+MultiPIC vs Calibration + Support,MultiPIC,Calibration + Support,R@10,74,93,7,26,33,0.0013187271542847157,200
+MultiPIC vs Calibration + Support,MultiPIC,Calibration + Support,R@20,107,60,8,25,33,0.004551384132355452,200

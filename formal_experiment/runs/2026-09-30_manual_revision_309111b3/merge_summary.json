@@ -1,0 +1,9 @@
+{
+  "uid": "309111b3-4d14-46e4-bffd-3841e033a9bf",
+  "decision": "VALID",
+  "paired_states_json_total": 200,
+  "paired_states_jsonl_total": 200,
+  "thinking_enabled": true,
+  "backup_json": "paired_states.json.before_manual_revision_309111b3",
+  "backup_jsonl": "paired_states.jsonl.before_manual_revision_309111b3"
+}

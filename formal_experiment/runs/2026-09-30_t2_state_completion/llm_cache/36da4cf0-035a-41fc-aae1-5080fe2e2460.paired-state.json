@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "fingerprint": {
+    "prompt_version": "paired-state-normalizer-v2",
+    "prompt_sha256": "a3e23477a6a6b7c1a753b7b20fabff741930cf1e436426d6af80945715f88230",
+    "input_sha256": "9e5e3e9b2b1ba4118645816c888e3358e84336c44e34725fb3e19fbdc03a29cf",
+    "model": "deepseek-flash",
+    "thinking": true,
+    "reasoning_effort": "low"
+  },
+  "result": {
+    "decision": "VALID",
+    "state_old": "The user is in a long-term relationship.",
+    "state_new": "The user will probably list their sister as their emergency contact.",
+    "old_evidence_text": "I'm in a long-term relationship",
+    "new_evidence_text": "I’m updating my emergency contact forms this week—took a minute to realize there isn’t really anyone I can put down who’d be reachable at odd hours, so I’ll probably list my sister instead.",
+    "invalid_reason": null,
+    "confidence": 0.9
+  }
+}

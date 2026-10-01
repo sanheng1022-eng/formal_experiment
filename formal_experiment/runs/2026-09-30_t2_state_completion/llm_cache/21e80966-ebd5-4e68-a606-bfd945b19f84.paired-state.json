@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "fingerprint": {
+    "prompt_version": "paired-state-normalizer-v2",
+    "prompt_sha256": "a3e23477a6a6b7c1a753b7b20fabff741930cf1e436426d6af80945715f88230",
+    "input_sha256": "1243440b4ec5248d500c944f416fcc1f2016827d9c55b503fcbe8847bb7c46d0",
+    "model": "deepseek-flash",
+    "thinking": true,
+    "reasoning_effort": "low"
+  },
+  "result": {
+    "decision": "VALID",
+    "state_old": "The user will have to leave earlier than usual on Sunday because the user is helping coordinate choir practice at the parish before the morning service begins.",
+    "state_new": "The user loves a new app that gives a gentle chime for all five daily prayers and makes finding the Qibla effortless when the user unrolls their mat in a new hotel room.",
+    "old_evidence_text": "I’ll have to head out a bit earlier than usual on Sunday because I’m helping coordinate the choir practice at the parish before the morning service begins.",
+    "new_evidence_text": "I really love this new app I downloaded; it gives a gentle chime for all five daily prayers and makes finding the Qibla effortless whenever I unroll my mat in a new hotel room.",
+    "invalid_reason": null,
+    "confidence": 0.9
+  }
+}

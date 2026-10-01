@@ -1,0 +1,10 @@
+{
+  "run_id": "2026-09-30_manual_revision_309111b3",
+  "uid": "309111b3-4d14-46e4-bffd-3841e033a9bf",
+  "dataset_index": 214,
+  "prompt_version": "paired-state-normalizer-v2",
+  "model": "deepseek-flash",
+  "thinking_enabled": true,
+  "reasoning_effort": "low",
+  "revision_reason": "User-authored replacement for prior invalid environmental-only pair."
+}

@@ -1,0 +1,6 @@
+{
+  "seed": 20261001,
+  "bootstrap_repetitions": 10000,
+  "source_exp1_master_sha256": "a5810509a1bf407e80b074c6faef01d4063b91ee6d96956d4a408f53e7fa1268",
+  "source_crossing_master_sha256": "e3ab85a83aabe4895dae31b7c02affcee23f65e0375db4d77eb49358e1d545de"
+}

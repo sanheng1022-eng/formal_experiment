@@ -1,0 +1,29 @@
+# Datasets, derived embeddings, and other local data artifacts.
+# Keep only dataset documentation so a clone explains how to obtain the data.
+data/**
+!data/**/
+!data/**/README.md
+
+# Downloaded model files. Keep their README and manifest files as acquisition notes.
+models/**
+!models/**/
+!models/**/README.md
+!models/**/MODEL_MANIFEST.md
+
+# Reproducible caches and transient run artifacts.
+**/embeddings/
+**/*.npz
+**/*.npy
+**/*.pt
+**/*.pth
+**/*.ckpt
+**/*.safetensors
+**/*.bin
+**/*.onnx
+**/__pycache__/
+**/*.py[cod]
+.pytest_cache/
+*.partial.*
+
+# Local credentials.
+.env*

@@ -1,0 +1,17 @@
+analysis_level,taxonomy,crossing_type,count,denominator,frequency,n_queries
+candidate_level,High Hubness + High Gap,New overtaker,1265,2147,0.5891942244993014,187
+candidate_level,High Hubness + High Gap,Defeated,882,2147,0.41080577550069863,187
+candidate_level,High Hubness + Low Gap,New overtaker,399,1516,0.2631926121372032,167
+candidate_level,High Hubness + Low Gap,Defeated,1117,1516,0.7368073878627969,167
+candidate_level,Low Hubness + High Gap,New overtaker,365,999,0.36536536536536535,148
+candidate_level,Low Hubness + High Gap,Defeated,634,999,0.6346346346346347,148
+candidate_level,Low Hubness + Low Gap,New overtaker,182,1462,0.12448700410396717,160
+candidate_level,Low Hubness + Low Gap,Defeated,1280,1462,0.8755129958960328,160
+query_balanced,High Hubness + High Gap,New overtaker,1265,2147,0.5865748810712182,187
+query_balanced,High Hubness + High Gap,Defeated,882,2147,0.41342511892878175,187
+query_balanced,High Hubness + Low Gap,New overtaker,399,1516,0.3237863013664352,167
+query_balanced,High Hubness + Low Gap,Defeated,1117,1516,0.6762136986335647,167
+query_balanced,Low Hubness + High Gap,New overtaker,365,999,0.3775857508249149,148
+query_balanced,Low Hubness + High Gap,Defeated,634,999,0.622414249175085,148
+query_balanced,Low Hubness + Low Gap,New overtaker,182,1462,0.17829988097557758,160
+query_balanced,Low Hubness + Low Gap,Defeated,1280,1462,0.8217001190244225,160

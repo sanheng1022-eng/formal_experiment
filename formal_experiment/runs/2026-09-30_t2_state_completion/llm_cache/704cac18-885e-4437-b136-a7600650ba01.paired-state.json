@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "fingerprint": {
+    "prompt_version": "paired-state-normalizer-v2",
+    "prompt_sha256": "a3e23477a6a6b7c1a753b7b20fabff741930cf1e436426d6af80945715f88230",
+    "input_sha256": "edc0d830269bdb05112a4d6493d039d694f78e289c9dedfffcc15e9d9c1377d8",
+    "model": "deepseek-flash",
+    "thinking": true,
+    "reasoning_effort": "low"
+  },
+  "result": {
+    "decision": "VALID",
+    "state_old": "The user is accustomed to the pace of life in Portland and cannot imagine navigating the rhythm of a different city.",
+    "state_new": "The user always shakes out their boots before putting them on.",
+    "old_evidence_text": "I’ve honestly become so accustomed to the pace of life here in Portland that I can’t imagine navigating the rhythm of a different city anymore.",
+    "new_evidence_text": "I've learned the hard way to always shake out my boots before putting them on",
+    "invalid_reason": null,
+    "confidence": 0.86
+  }
+}

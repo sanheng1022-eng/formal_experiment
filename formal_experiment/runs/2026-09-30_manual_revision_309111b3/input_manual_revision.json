@@ -1,0 +1,11 @@
+[
+  {
+    "uid": "309111b3-4d14-46e4-bffd-3841e033a9bf",
+    "dataset_index": 214,
+    "source": {
+      "M_old": "Where I live, it is rarely cold for this time of year.",
+      "M_new": "Since moving to my new place, I have noticed that the mornings are unusually cold for this time of year."
+    },
+    "revision_reason": "User-authored replacement for prior invalid environmental-only pair."
+  }
+]

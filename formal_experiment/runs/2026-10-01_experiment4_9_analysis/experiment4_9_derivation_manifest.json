@@ -1,0 +1,31 @@
+{
+  "created_at_utc": "2026-10-01T07:17:19.642294+00:00",
+  "source_exp1_master_sha256": "a5810509a1bf407e80b074c6faef01d4063b91ee6d96956d4a408f53e7fa1268",
+  "crossing_master_sha256": "e3ab85a83aabe4895dae31b7c02affcee23f65e0375db4d77eb49358e1d545de",
+  "bootstrap": {
+    "repetitions": 10000,
+    "seed": 20261001,
+    "cluster": "query_id"
+  },
+  "outer_train_taxonomy": "per-fold median hubness and gap12 reference distributions computed from frozen embeddings only; no ranks or retrieval recomputed",
+  "outputs": {
+    "exp4_crossing_master.csv.gz": "e3ab85a83aabe4895dae31b7c02affcee23f65e0375db4d77eb49358e1d545de",
+    "exp4_crossing_master.frozen.json": "2d1bdaf8a2157a443fee65d52f06e4dfc6ffb4019d61142b661046085feab5f1",
+    "exp4_crossing_query_summary.csv": "8a910376c0cc47b8bd8a7c17327ed4a376bb570d7592b357daa92971d6a69f89",
+    "exp4_crossing_summary.md": "53e528d5f197d2c6ec173bf7050bd5f9bf9771a11048e23141b89a5fec5d297e",
+    "exp5_mechanism_analysis.csv": "ad93ad65a667d80cb50b6eca308fe6bb191f6638381975e9fee64bc3863db43a",
+    "exp5_mechanism_analysis.md": "98d5362fee3ac91b92684821251ae98fd295223260b8b1a0343c6ef5e1f7ac9e",
+    "exp6_crossing_taxonomy_assignments.csv": "d658abc50825edce19993ec137ee6ab9cc2f311827f7d87eab451a8ce10b4eb0",
+    "exp6_failure_taxonomy.csv": "d8998e059cbebf9d8d90861c34e1cee2d37fadadd383b101de6007f49c33647e",
+    "exp6_failure_taxonomy.md": "469304b91f850c4602dbb310a6248a88cad35480e1d75d04f6bf1325bdec469e",
+    "exp6_outer_train_thresholds.csv": "3edc045c43824c58881a7d1f567701b68d4aa51c311a2b6bd242763785634cfc",
+    "exp7_repair_analysis.csv": "90f2483efe79950bc1cdae80c8906976e51005e7d1508252f6b37a6effbd6575",
+    "exp7_repair_analysis.md": "c5fac2dee29e439581db6eb296c3a30ec6aea2acc56e172cc32220ef6cb8b92b",
+    "exp8_harm_benefit.csv": "8f1b5f8c568dd9e353e94966aaaa7705d26d92570b84722e8d7b507928d77808",
+    "exp8_harm_benefit.md": "d66a67a880c599aa9203b63b177da1f082bb27ef589e7da1ac52c3ce1ca35ab8",
+    "exp9_critical_overtakers.csv": "00df530f89891260df6b4c17fe1800e564918033cb52e1d54311bbad2156f8fb",
+    "exp9_critical_overtakers.md": "2f63c4f752a67d738e5e84b3ba00b2a240063b308424c69a9a1a8d088ac88c53",
+    "exp9_critical_recovery.csv": "0d23cccb6814f2a35f59ea6bafcf8c05f0e789d58f2fb3ee331428bd79ba1c90",
+    "experiment4_9_summary.md": "e97eb5d5a411ddf0578ca4a38f11a958941b165c98e2f511fd494bb5b25a8611"
+  }
+}

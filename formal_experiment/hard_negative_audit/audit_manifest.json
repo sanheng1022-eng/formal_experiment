@@ -1,0 +1,14 @@
+{
+  "selection_rule": "all New-overtaker candidates in critical harmful queries + global top 30 MultiPIC-score non-golds + global top 30 Calibration-score non-golds; deduplicate by query_id + candidate_state_id",
+  "critical_query_definition": "raw_gold_rank <= 20 AND multipic_gold_rank > 20",
+  "critical_query_count": 17,
+  "critical_new_overtaker_records": 441,
+  "multipic_top30_records": 30,
+  "calibration_top30_records": 30,
+  "deduplicated_audit_records": 494,
+  "source_hashes": {
+    "raw_pairs": "3ff986272036979ca2838b493da21221de0412f5310ccc3447e1b55f1a5ffc04",
+    "exp1_master": "a5810509a1bf407e80b074c6faef01d4063b91ee6d96956d4a408f53e7fa1268",
+    "exp4_crossing_master": "e3ab85a83aabe4895dae31b7c02affcee23f65e0375db4d77eb49358e1d545de"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "fingerprint": {
+    "prompt_version": "paired-state-normalizer-v2",
+    "prompt_sha256": "a3e23477a6a6b7c1a753b7b20fabff741930cf1e436426d6af80945715f88230",
+    "input_sha256": "f72aed1e4eeb5894ab1caf3ec2adfd0f124817c71b1e6ab3ef81f4ce04102765",
+    "model": "deepseek-flash",
+    "thinking": true,
+    "reasoning_effort": "low"
+  },
+  "result": {
+    "decision": "VALID",
+    "state_old": "The user is part of a crew whose members have worked together for years and know who covers what without talking.",
+    "state_new": "The user is on their own again and is adjusting to a new badge, new keys, and a different building’s security code to memorize.",
+    "old_evidence_text": "Most of the crew here have been working together for years, so we basically know who covers what without even talking.",
+    "new_evidence_text": "I’m on my own again—new badge, new keys, and a whole different building’s security code to memorize.",
+    "invalid_reason": null,
+    "confidence": 0.9
+  }
+}

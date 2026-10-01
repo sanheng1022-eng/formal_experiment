@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "fingerprint": {
+    "prompt_version": "paired-state-normalizer-v2",
+    "prompt_sha256": "a3e23477a6a6b7c1a753b7b20fabff741930cf1e436426d6af80945715f88230",
+    "input_sha256": "09ba67214e8ead5d0a3cfb0cd05790859b8560a4c8978c134d965e2f75f52a8e",
+    "model": "deepseek-flash",
+    "thinking": true,
+    "reasoning_effort": "low"
+  },
+  "result": {
+    "decision": "VALID",
+    "state_old": "The user has kept their credit score in a good place for a few years.",
+    "state_new": "The user spent most of last year juggling a couple of 0% intro cards just to keep the lights on.",
+    "old_evidence_text": "I've kept my credit score in a good place for a few years now",
+    "new_evidence_text": "I spent most of last year juggling a couple of 0% intro cards just to keep the lights on",
+    "invalid_reason": null,
+    "confidence": 0.9
+  }
+}

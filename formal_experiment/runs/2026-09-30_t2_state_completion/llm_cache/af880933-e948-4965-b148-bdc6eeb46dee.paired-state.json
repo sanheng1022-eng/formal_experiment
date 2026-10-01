@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "fingerprint": {
+    "prompt_version": "paired-state-normalizer-v2",
+    "prompt_sha256": "a3e23477a6a6b7c1a753b7b20fabff741930cf1e436426d6af80945715f88230",
+    "input_sha256": "96ab30167e56703c8a554f79e89eb03c067f6c5669c40557be8bd13f675248d8",
+    "model": "deepseek-flash",
+    "thinking": true,
+    "reasoning_effort": "low"
+  },
+  "result": {
+    "decision": "VALID",
+    "state_old": "The user lives at an altitude of 3,800 meters.",
+    "state_new": "The user has started timing their morning runs with the low tide.",
+    "old_evidence_text": "living at 3,800 meters",
+    "new_evidence_text": "I’ve started timing my morning runs with the low tide",
+    "invalid_reason": null,
+    "confidence": 0.7
+  }
+}

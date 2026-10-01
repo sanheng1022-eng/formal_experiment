@@ -1,0 +1,33 @@
+{
+  "created_at_utc": "2026-10-01T08:03:13.962690+00:00",
+  "model": "BAAI/bge-m3",
+  "cache_audit": {
+    "norm_min": 0.9996710855766148,
+    "norm_max": 1.000327864751576
+  },
+  "master_sha256": "6b6122c65d872ee550709ffe2c6838e857593da94d471386e4d0c287e73fb869",
+  "crossing_sha256": "c70fbb8880012b15d324249c1ff2642804b41fd711edb1e6e3e1d25cb3ad5a38",
+  "source_hashes": {
+    "dataset": "3ff986272036979ca2838b493da21221de0412f5310ccc3447e1b55f1a5ffc04",
+    "folds": "e06a31ead028d52319c2b731410eb2edc64979d453ae30d9d4b5392c98f00558",
+    "cache": "4e768382fcd6725a417eeeed21143ed1eb74e64b958476c5a1681ce0fd1f06d5"
+  },
+  "protocol": {
+    "inner_folds": 4,
+    "inner_seed": 20261001,
+    "topks": [
+      10,
+      20,
+      40
+    ],
+    "betas": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "selection": "max R@20, max MRR, min beta, min TopK",
+    "alpha": 0.5,
+    "epsilon": 1e-08
+  }
+}

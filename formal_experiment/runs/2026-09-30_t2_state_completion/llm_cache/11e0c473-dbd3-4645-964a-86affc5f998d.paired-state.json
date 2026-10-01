@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "fingerprint": {
+    "prompt_version": "paired-state-normalizer-v2",
+    "prompt_sha256": "a3e23477a6a6b7c1a753b7b20fabff741930cf1e436426d6af80945715f88230",
+    "input_sha256": "e5c5a696dfda555779765c7fb69f4e93f7e451f7064d6dabe1798e5c05161a0e",
+    "model": "deepseek-flash",
+    "thinking": true,
+    "reasoning_effort": "low"
+  },
+  "result": {
+    "decision": "VALID",
+    "state_old": "The user is close with their neighbors and regularly checks in on them.",
+    "state_new": "The user is preparing to move, with movers scheduled for next week.",
+    "old_evidence_text": "We're quite close with the neighbors and always make sure to check in on one another.",
+    "new_evidence_text": "next week the movers are coming",
+    "invalid_reason": null,
+    "confidence": 0.9
+  }
+}

@@ -1,0 +1,8 @@
+INFO:     Started server process [37776]
+INFO:     Waiting for application startup.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights:   1%|▏         | 5/391 [00:01<01:34,  4.07it/s]Loading weights: 100%|██████████| 391/391 [00:01<00:00, 313.95it/s]
+INFO:     Application startup complete.
+ERROR:    [Errno 10048] error while attempting to bind on address ('127.0.0.1', 8001): [winerror 10048] 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.

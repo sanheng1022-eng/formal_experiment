@@ -1,0 +1,100 @@
+# Frozen Experiment 1 preflight configuration; generated 2026-10-01
+experiment: Experiment 1 — Main Retrieval Result
+execution_mode: preflight_only
+dataset:
+  path: data/raw/paired_states_v2/paired_states.json
+  sha256: 3ff986272036979ca2838b493da21221de0412f5310ccc3447e1b55f1a5ffc04
+  expected_pairs: 200
+  id_policy: "state_id=query_id=paired_states_v2.uid"
+  query_field: state_new
+  gold_field: state_old
+pic:
+  expected_per_state: 4
+  source_field: possible_invalidation_conditions
+  selection: first_four_in_frozen_source_list_order__user_approved_2026-10-01
+  frozen: true
+  regeneration_allowed: false
+embedding:
+  model_id: Qwen3-Embedding-0.6B
+  checkpoint: models/qwen3-embedding-0.6b
+  dimensions: 1024
+  tokenizer: AutoTokenizer(local_files_only=true, padding_side=left)
+  pooling: last_non_padding_token
+  normalization: L2
+  device: cuda_if_available_else_cpu
+  dtype: float16_on_cuda_else_model_default
+  batch_size: 8
+  cosine: dot_product_of_L2_normalized_vectors
+  cache_path: data/derived/embeddings/qwen3_embedding_0.6b.npz
+  state_new_instruction: "Given a new user-state observation, retrieve historical-state invalidation conditions that are semantically compatible with the observation and indicate that the corresponding historical state may be outdated, invalid, or require re-evaluation."
+  state_old_and_pic_instruction: null
+candidate_pool:
+  size: 200
+  pool_seed: null
+  ordering: canonical_state_id_ascending
+  tie_breaking: score_descending_then_canonical_state_id_ascending
+outer_cv:
+  folds: 5
+  random_seed: 20261001
+  assignment_file: configs/outer_folds.json
+inner_selection:
+  train_only: true
+  inner_folds: 4
+  random_seed: 20261001
+  inner_split: 120_train__40_validation_per_inner_fold
+  background_topk: [10, 20, 40]
+  beta: [0.25, 0.5, 0.75, 1.0]
+  primary_metric: R@20
+  secondary_metric: MRR
+  tie_breaking: highest_R@20__then_highest_MRR__then_lowest_beta__then_lowest_TopK
+  alpha: 0.5
+background:
+  exclude_all_known_positive_updates: true
+  statistics_source: inner_train_during_selection__outer_train_after_selection
+  epsilon: 1e-8
+methods:
+  - B0 Raw State
+  - B1 MultiPIC-Max
+  - B2 Raw + MultiPIC-Max
+  - B3 Mean
+  - B3 Top-2 Mean
+  - B3 Softmax / LogSumExp
+  - B4 Mean-centering
+  - B4 Z-score
+  - B4 CSLS-style
+  - M1 PIC-specific Background Calibration
+  - M2 Calibration + Support
+pooling:
+  logmeanexp_tau: 0.1
+  logmeanexp: tau_times_log_mean_exp_of_four_pic_scores
+outputs:
+  candidate_level_format: csv_gzip
+  required_columns:
+    - query_id
+    - gold_state_id
+    - candidate_state_id
+    - is_gold
+    - raw_score
+    - PIC_1_score
+    - PIC_2_score
+    - PIC_3_score
+    - PIC_4_score
+    - top1
+    - top2
+    - gap12
+    - winner_pic_id
+    - winner_pic_hubness
+    - calibrated_scores
+    - support_score
+    - raw_rank
+    - multipic_rank
+    - calibrated_rank
+    - support_rank
+    - candidate_pool_size
+    - candidate_pool_seed
+    - outer_fold
+    - embedding_model
+    - chosen_beta
+    - chosen_topk
+    - alpha
+  sidecars: [fold_config, model_config, experiment_config, random_seeds, code_version]

@@ -1,0 +1,6 @@
+outer_fold,chosen_topk,reference_observations,hubness_median,gap12_median,reference_source
+0,40,32000,0.5226946912393906,0.022496067502537187,outer_train_candidate_x_query_raw_PIC_only
+1,40,32000,0.5235579578965094,0.022522459575974096,outer_train_candidate_x_query_raw_PIC_only
+2,40,32000,0.5230529062352808,0.022823849318399425,outer_train_candidate_x_query_raw_PIC_only
+3,40,32000,0.5232567914271913,0.02222987459569481,outer_train_candidate_x_query_raw_PIC_only
+4,20,32000,0.546579023056897,0.02267004166139941,outer_train_candidate_x_query_raw_PIC_only

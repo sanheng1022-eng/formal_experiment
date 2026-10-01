@@ -1,0 +1,7 @@
+comparison,baseline,new,metric,effect_definition,effect_size,ci95_low,ci95_high,bootstrap_p_value,unit,n_queries,bootstrap_repetitions,seed
+MultiPIC vs Calibration,MultiPIC,Calibration,R@20,new - baseline,0.05500000000000005,0.0,0.11499999999999999,0.06999300069993,query_id,200,10000,20261001
+MultiPIC vs Calibration,MultiPIC,Calibration,MRR,new - baseline,0.04953522357832632,0.019471948892823755,0.08027176270985836,0.000999900009999,query_id,200,10000,20261001
+MultiPIC vs Calibration,MultiPIC,Calibration,Mean Gold Rank,new - baseline,-5.18,-8.525125,-1.9849999999999994,0.0027997200279972004,query_id,200,10000,20261001
+MultiPIC vs Calibration + Support,MultiPIC,Calibration + Support,R@20,new - baseline,0.08500000000000008,0.030000000000000027,0.14,0.001999800019998,query_id,200,10000,20261001
+MultiPIC vs Calibration + Support,MultiPIC,Calibration + Support,MRR,new - baseline,0.05974732226397492,0.028053891569768608,0.09217814411658999,0.00039996000399960006,query_id,200,10000,20261001
+MultiPIC vs Calibration + Support,MultiPIC,Calibration + Support,Mean Gold Rank,new - baseline,-5.414999999999999,-8.665,-2.2747500000000023,0.0017998200179982,query_id,200,10000,20261001

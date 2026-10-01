@@ -1,0 +1,37 @@
+[
+  {
+    "outer_fold": 0,
+    "chosen_topk": 40,
+    "chosen_beta": 0.5,
+    "alpha": 0.5,
+    "inner_seed": 20261001
+  },
+  {
+    "outer_fold": 1,
+    "chosen_topk": 40,
+    "chosen_beta": 1.0,
+    "alpha": 0.5,
+    "inner_seed": 20261001
+  },
+  {
+    "outer_fold": 2,
+    "chosen_topk": 40,
+    "chosen_beta": 1.0,
+    "alpha": 0.5,
+    "inner_seed": 20261001
+  },
+  {
+    "outer_fold": 3,
+    "chosen_topk": 40,
+    "chosen_beta": 0.75,
+    "alpha": 0.5,
+    "inner_seed": 20261001
+  },
+  {
+    "outer_fold": 4,
+    "chosen_topk": 20,
+    "chosen_beta": 0.75,
+    "alpha": 0.5,
+    "inner_seed": 20261001
+  }
+]

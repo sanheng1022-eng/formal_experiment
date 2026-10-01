@@ -1,0 +1,25 @@
+{
+  "schema_version": "embedding-model-registry-v1",
+  "models": [
+    {
+      "id": "Qwen3-Embedding-0.6B",
+      "directory": "formal_experiment/models/qwen3-embedding-0.6b",
+      "service": "formal_experiment/src/qwen_embedding_service.py",
+      "startup_script": "formal_experiment/scripts/start_qwen_embedding.ps1",
+      "endpoint": "http://127.0.0.1:8000/v1/embeddings",
+      "dimensions": 1024,
+      "instruction_policy": "Optional task-specific English instruction; service formats it as Instruct: <instruction>\\nQuery:<text>.",
+      "default_batch_size": 8
+    },
+    {
+      "id": "BAAI/bge-m3",
+      "directory": "formal_experiment/models/bge-m3",
+      "service": "formal_experiment/src/bge_m3_embedding_service.py",
+      "startup_script": "formal_experiment/scripts/start_bge_m3_embedding.ps1",
+      "endpoint": "http://127.0.0.1:8001/v1/embeddings",
+      "dimensions": 1024,
+      "instruction_policy": "Raw text only; do not add an instruction or an Instruct:/Query: prefix.",
+      "default_batch_size": 4
+    }
+  ]
+}

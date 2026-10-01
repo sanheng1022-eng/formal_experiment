@@ -1,0 +1,7 @@
+INFO:     127.0.0.1:30080 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30101 - "POST /v1/embeddings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:18843 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:10923 - "POST /v1/embeddings HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:62026 - "POST /v1/embeddings HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:62027 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62030 - "POST /v1/embeddings HTTP/1.1" 500 Internal Server Error

@@ -1,0 +1,29 @@
+method,K,hits,total_queries,Recall@K
+Raw,1,11,200,0.055
+Raw,5,45,200,0.225
+Raw,10,71,200,0.355
+Raw,20,102,200,0.51
+Raw,30,118,200,0.59
+Raw,40,130,200,0.65
+Raw,50,141,200,0.705
+MultiPIC,1,18,200,0.09
+MultiPIC,5,57,200,0.285
+MultiPIC,10,81,200,0.405
+MultiPIC,20,115,200,0.575
+MultiPIC,30,134,200,0.67
+MultiPIC,40,146,200,0.73
+MultiPIC,50,153,200,0.765
+Calibration,1,25,200,0.125
+Calibration,5,70,200,0.35
+Calibration,10,101,200,0.505
+Calibration,20,126,200,0.63
+Calibration,30,151,200,0.755
+Calibration,40,161,200,0.805
+Calibration,50,170,200,0.85
+Calibration + Support,1,30,200,0.15
+Calibration + Support,5,68,200,0.34
+Calibration + Support,10,100,200,0.5
+Calibration + Support,20,132,200,0.66
+Calibration + Support,30,153,200,0.765
+Calibration + Support,40,157,200,0.785
+Calibration + Support,50,167,200,0.835

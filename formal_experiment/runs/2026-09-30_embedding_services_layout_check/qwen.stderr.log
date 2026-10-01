@@ -1,0 +1,8 @@
+INFO:     Started server process [33392]
+INFO:     Waiting for application startup.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  11%|█         | 33/310 [00:00<00:01, 273.75it/s]Loading weights:  22%|██▏       | 67/310 [00:00<00:00, 304.99it/s]Loading weights:  32%|███▏      | 100/310 [00:00<00:00, 311.89it/s]Loading weights:  43%|████▎     | 132/310 [00:00<00:00, 256.79it/s]Loading weights:  51%|█████▏    | 159/310 [00:00<00:00, 234.77it/s]Loading weights:  59%|█████▉    | 184/310 [00:00<00:00, 225.35it/s]Loading weights:  67%|██████▋   | 208/310 [00:00<00:00, 200.32it/s]Loading weights:  76%|███████▌  | 236/310 [00:01<00:00, 217.61it/s]Loading weights:  87%|████████▋ | 269/310 [00:01<00:00, 244.08it/s]Loading weights: 100%|██████████| 310/310 [00:01<00:00, 257.50it/s]
+INFO:     Application startup complete.
+ERROR:    [Errno 10048] error while attempting to bind on address ('127.0.0.1', 8000): [winerror 10048] 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.

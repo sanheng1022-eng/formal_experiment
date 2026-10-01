@@ -1,0 +1,6 @@
+INFO:     Started server process [19592]
+INFO:     Waiting for application startup.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights:  10%|¨€         | 31/310 [00:00<00:00, 306.79it/s]Loading weights:  20%|¨€¨€        | 62/310 [00:00<00:00, 299.47it/s]Loading weights:  30%|¨€¨€¨       | 92/310 [00:00<00:00, 293.92it/s]Loading weights:  39%|¨€¨€¨€¨      | 122/310 [00:00<00:00, 260.12it/s]Loading weights:  48%|¨€¨€¨€¨€¨‚     | 149/310 [00:00<00:00, 233.61it/s]Loading weights:  56%|¨€¨€¨€¨€¨€¨„    | 173/310 [00:00<00:00, 225.35it/s]Loading weights:  63%|¨€¨€¨€¨€¨€¨€¨†   | 196/310 [00:00<00:00, 206.09it/s]Loading weights:  70%|¨€¨€¨€¨€¨€¨€¨€   | 217/310 [00:00<00:00, 200.87it/s]Loading weights:  79%|¨€¨€¨€¨€¨€¨€¨€¨  | 246/310 [00:01<00:00, 223.04it/s]Loading weights:  90%|¨€¨€¨€¨€¨€¨€¨€¨€¨ | 278/310 [00:01<00:00, 249.76it/s]Loading weights: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 310/310 [00:01<00:00, 250.46it/s]
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)

@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "fingerprint": {
+    "prompt_version": "paired-state-normalizer-v2",
+    "prompt_sha256": "a3e23477a6a6b7c1a753b7b20fabff741930cf1e436426d6af80945715f88230",
+    "input_sha256": "a35ea0f763aa2eeadbd0a5307ed56277f58a4e13409a2bb31e205700f8c8f7b6",
+    "model": "deepseek-flash",
+    "thinking": true,
+    "reasoning_effort": "low"
+  },
+  "result": {
+    "decision": "VALID",
+    "state_old": "The user is focused on finalizing client migration plans for the current sprint.",
+    "state_new": "The user is setting up their accounts and doing the mandatory security modules tonight before their first shift.",
+    "old_evidence_text": "I'm mostly just focused on getting the client migration plans finalized for this sprint.",
+    "new_evidence_text": "tonight I’m setting up my accounts and doing the mandatory security modules before my first shift.",
+    "invalid_reason": null,
+    "confidence": 0.86
+  }
+}

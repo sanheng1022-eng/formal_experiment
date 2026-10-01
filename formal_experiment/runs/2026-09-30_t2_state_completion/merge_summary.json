@@ -1,0 +1,12 @@
+{
+  "run_id": "2026-09-30_t2_state_completion",
+  "processed": 20,
+  "valid_appended_to_json": 19,
+  "invalid_retained_in_jsonl": 1,
+  "paired_states_json_total": 199,
+  "paired_states_jsonl_total": 200,
+  "backup_json": "paired_states.json.before_t2_completion_20260930",
+  "backup_jsonl": "paired_states.jsonl.before_t2_completion_20260930",
+  "thinking_enabled": true,
+  "reasoning_effort": "low"
+}

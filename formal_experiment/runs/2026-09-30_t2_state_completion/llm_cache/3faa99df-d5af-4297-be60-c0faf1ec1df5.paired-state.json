@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "fingerprint": {
+    "prompt_version": "paired-state-normalizer-v2",
+    "prompt_sha256": "a3e23477a6a6b7c1a753b7b20fabff741930cf1e436426d6af80945715f88230",
+    "input_sha256": "9d1ff260ce5e6850d51c1c897ec9c913da1016bac5d4887ce9f090a7d07657f0",
+    "model": "deepseek-flash",
+    "thinking": true,
+    "reasoning_effort": "low"
+  },
+  "result": {
+    "decision": "VALID",
+    "state_old": "The user has always trusted their ability to bounce back from minor health issues without needing a lot of hand-holding.",
+    "state_new": "Since the concussion, the user has kept a little notebook in their jacket pocket to write down names, dates, and locations because otherwise they forget information by dinner.",
+    "old_evidence_text": "I've always trusted my ability to bounce back from minor health issues without needing a lot of hand-holding.",
+    "new_evidence_text": "Since the concussion, I’ve started keeping a little notebook in my jacket pocket—names, dates, even which cupboard the mugs are in—because if I don’t write things down the moment I hear them, they’re just… gone by dinner.",
+    "invalid_reason": null,
+    "confidence": 0.92
+  }
+}
